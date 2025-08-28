@@ -1,0 +1,34 @@
+# Large model files (excluding our specific pytorch_models.bin)
+*.bin
+!assets/models/pytorch_models.bin
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.model
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies and build artifacts
+node_modules/
+dist/
+build/
